@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/filter_menu_item"
+    android:title="Filter">
+</item>
+    <item android:id="@+id/about_menu_item"
+        android:title="About"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info_outline_white_24dp">
+
+    </item>
+    <item android:id="@+id/view_menu_item"
+        android:title="View As:">
+        <menu >
+            <item android:id="@+id/as_list"
+                android:title="As List"/>
+            <item android:id="@+id/as_grid"
+                android:title="As Grid"/>
+            <item android:id="@+id/as_stag_grid"
+                android:title="As Staggered"/>
+        </menu>
+    </item>
+</menu>

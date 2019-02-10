@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#880000"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Section"
+        android:textColor="#ffffff" />
+
+    <RadioGroup
+        android:id="@+id/section_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/hot_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="hot" />
+
+        <RadioButton
+            android:id="@+id/top_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="top" />
+
+        <RadioButton
+            android:id="@+id/user_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="user" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#880000"
+        android:gravity="center"
+        android:text="Sort"
+        android:textColor="#ffffff" />
+
+    <RadioGroup
+        android:id="@+id/sort_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/viral_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="viral" />
+
+        <RadioButton
+            android:id="@+id/top_sort_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="top" />
+
+        <RadioButton
+            android:id="@+id/time_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="time" />
+
+        <RadioButton
+            android:id="@+id/rising_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="rising" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#880000"
+        android:gravity="center"
+        android:text="Window"
+        android:textColor="#ffffff" />
+
+    <RadioGroup
+        android:id="@+id/window_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/day_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:enabled="false"
+            android:text="day" />
+
+        <RadioButton
+            android:id="@+id/week_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="week" />
+
+        <RadioButton
+            android:id="@+id/month_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="month" />
+
+        <RadioButton
+            android:id="@+id/year_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="year" />
+
+        <RadioButton
+            android:id="@+id/all_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="all" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#880000"
+        android:gravity="center"
+        android:text="Show Viral"
+        android:textColor="#ffffff" />
+
+    <CheckBox
+        android:id="@+id/show_viral_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:enabled="false"
+        android:text="Show Viral" />
+</LinearLayout>
