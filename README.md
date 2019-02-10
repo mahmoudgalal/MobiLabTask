@@ -6,7 +6,7 @@ preview all Imgur main Galleries and navigate through all images in each gallery
 - Filter Galleries by <i>Section and Time Window</i> including sorting the result set as descriped at https://api.imgur.com
 - Caching of downloaded images to mmemory and disk
 - Preview of Gif Animations
-- Multiple Gallery View option i.e: As List,As Grid or As Stagerred Grid.
+- Multiple Gallery View option i.e: As List,As Grid or As Staggered Grid.
 - Preview Gallery/Image meta-data i.e: Title,Description,up/down votes,score...etc
 - Support for portrait/landscape mode.
 - A Zoom in/out support for the image viewer.
