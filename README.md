@@ -16,6 +16,15 @@ preview all Imgur main Galleries and navigate through all images in each gallery
 - BigImage.
 - Google Architecture Component.
 <br/>
+Copyright (c) 2019 Mahmoud Galal
+<br/>
 
+![](https://github.com/mahmoudgalal/MobiLabTask/raw/master/screenshots/1.png)
+![](https://github.com/mahmoudgalal/MobiLabTask/raw/master/screenshots/2.png)
+![](https://github.com/mahmoudgalal/MobiLabTask/raw/master/screenshots/3.png)
+![](https://github.com/mahmoudgalal/MobiLabTask/raw/master/screenshots/4.png)
+![](https://github.com/mahmoudgalal/MobiLabTask/raw/master/screenshots/5.png)
+![](https://github.com/mahmoudgalal/MobiLabTask/raw/master/screenshots/7.png)
+![](https://github.com/mahmoudgalal/MobiLabTask/raw/master/screenshots/6.png)
 
 
